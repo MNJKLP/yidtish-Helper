@@ -1,0 +1,69 @@
+::selection {
+  background: transparent;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 200px;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-size: 15px;
+  min-width: 200px;
+  background: #fff;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  direction: rtl;  /* Ensures everything is displayed from right to left */
+  padding-right: 10px;  /* Adds space between the content and the right border */
+  padding-left: 10px;  /* Adds space between the content and the left border */
+
+}
+
+label {
+  display: flex;  /* Enables flexbox for each label */
+  justify-content: flex-start;  /* Aligns content to the left within the label */
+  align-items: center;  /* Ensures checkbox and text align vertically */
+  margin-bottom: 10px;  /* Adds space between checkboxes */
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;  /* Space between the checkbox and the label text */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.popup_options {
+  padding: 2px;
+  cursor: pointer;
+  margin: 6px 12px;
+  text-align: right;
+}
+
+.popup_options:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  text-align: center;  /* Centers the text horizontally */
+}
